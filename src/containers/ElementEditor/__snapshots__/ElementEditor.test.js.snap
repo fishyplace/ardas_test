@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crashing 1`] = `
+<div
+  className="editor-container"
+>
+  <EditableField
+    editEntryHandler={[Function]}
+    name="Today_task1"
+  >
+    Name : 
+    Today_task1
+  </EditableField>
+  <p>
+    Description: 
+    <br />
+     
+    Lorem_ipsum_dolor_sit_amet,_consectetur_adipiscing_elit
+  </p>
+  <p>
+    Estimated: 
+    5.5
+  </p>
+  <p>
+    Actual: 
+    3.3
+  </p>
+  <p>
+    Due Date: 
+    2015-04-22T23:59:00
+  </p>
+  <p>
+    Tags: 
+    none
+  </p>
+  <Link
+    replace={false}
+    to="/"
+  >
+    Back
+  </Link>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render with one prop object without crashing 1`] = `
+<div
+  className="ext-list"
+>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Estimated
+        </th>
+        <th>
+          Actual
+        </th>
+        <th>
+          Due Date
+        </th>
+        <th>
+          Tags
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className={null}
+        key="1"
+      >
+        <td>
+          <Link
+            replace={false}
+            to="/edit/1"
+          >
+            Today_task1
+          </Link>
+        </td>
+        <td>
+          5.5
+        </td>
+        <td>
+          3.3
+        </td>
+        <td>
+          Wed Apr 22 2015 
+        </td>
+        <td>
+          none
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
